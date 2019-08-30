@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Ugly Unicorn`,
     description: `A place where Ugly Unicorn lives.`,
-    author: `@troolee`,
+    author: `@pashka_r`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
