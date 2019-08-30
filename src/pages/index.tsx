@@ -15,7 +15,6 @@ const IndexPage = () => (
           <Bulma.Container>
             <Bulma.NavbarBrand>
               <Link to="/" className="navbar-item">Ugly Unicorn</Link>
-              <Bulma.NavbarBurger></Bulma.NavbarBurger>
             </Bulma.NavbarBrand>
           </Bulma.Container>
         </Bulma.Navbar>
