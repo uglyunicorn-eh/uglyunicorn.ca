@@ -1,0 +1,31 @@
+@import "~bulma/css/bulma.css";
+@import "https://fonts.googleapis.com/css?family=Oswald&display=swap";
+
+.index-hero {
+  background: url('../images/uu.jpeg') no-repeat center bottom;
+  background-size: cover;
+}
+
+.navbar-brand .navbar-item {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand .navbar-item:hover {
+  color: #fff;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0);
+  transition-duration: 0.5s;
+}
+
+.index-hero .hero-foot a {
+  color: #333;
+}
+
+.index-hero .hero-foot a:hover {
+  color: #000;
+}
