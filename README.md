@@ -1,4 +1,4 @@
-# Home of the Ugly Unicorn
+# Home of Ugly Unicorn
 
 ![Ugly Unicorn, eh!](./uglyunicorn.jpg)
 
