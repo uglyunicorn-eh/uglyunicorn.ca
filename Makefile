@@ -27,3 +27,6 @@ all: cleanup bootstrap build
 upgrade:
 	curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
 	AWS_PROFILE=$(PROFILE) yarn upgrade --latest --registry https://registry.yarnpkg.com/
+
+develop:
+	yarn develop
