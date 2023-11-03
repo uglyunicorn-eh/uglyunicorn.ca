@@ -30,7 +30,7 @@ const IndexPage = () => (
 
           <Bulma.Columns className="is-mobile">
             <Bulma.Column>
-              <iframe src="https://status.uglyunicorn.ca/badge" width="250" height="30"></iframe>
+              <iframe src="https://status.uglyunicorn.ca/badge" width="250" height="30" title="Services status"></iframe>
             </Bulma.Column>
             <Bulma.Column className="has-text-right">
               <div style={{ display: "inline-flex", alignItems: "center", gap: 10, height: 32 }}>
