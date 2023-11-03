@@ -7,7 +7,7 @@ import GitHub from "../images/logo-github.svg";
 
 const IndexPage = () => (
   <>
-    <SEO title="Home of Ugly Unicorn" />
+    <SEO title="Home" />
 
     <Bulma.Hero className={`index-hero is-fullheight`}>
       <Bulma.HeroHeader>
