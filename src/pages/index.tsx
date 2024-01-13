@@ -36,13 +36,18 @@ const IndexPage = () => (
               <div style={{ display: "inline-flex", alignItems: "center", gap: 10, height: 32 }}>
                 <span>Made with &hearts; in Canada, eh!</span>
 
-
                 <span>|</span>
 
                 <a href="https://github.com/uglyunicorn-eh" title="GitHub">
                   <span className="icon">
                     <img src={GitHub} alt="Github" width={20} height={20} />
                   </span>
+                </a>
+
+                <span>|</span>
+
+                <a href="https://www.buymeacoffee.com/uglyunicorn">
+                  Buy me a coffee
                 </a>
 
                 <span>|</span>
