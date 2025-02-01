@@ -4,6 +4,7 @@ import { Link } from 'gatsby';
 
 import SEO from "../components/seo";
 import GitHub from "../images/logo-github.svg";
+import Logo from "../images/ugly-unicorn-xs.png";
 
 const IndexPage = () => (
   <>
@@ -15,7 +16,10 @@ const IndexPage = () => (
         <Bulma.Navbar role="navigation" aria-label="main navigation">
           <Bulma.Container>
             <Bulma.NavbarBrand>
-              <Link to="/" className="navbar-item">Ugly Unicorn</Link>
+                <Bulma.Image src={Logo} alt="Ugly Unicorn" isSize="48x48" />
+                <Link to="/" className="navbar-item">
+                  Ugly Unicorn
+                </Link>
             </Bulma.NavbarBrand>
           </Bulma.Container>
         </Bulma.Navbar>

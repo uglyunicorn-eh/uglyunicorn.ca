@@ -6,6 +6,10 @@
   background-size: cover;
 }
 
+.navbar-brand img {
+  padding: 0.5rem 0;
+}
+
 .navbar-brand .navbar-item {
   font-family: 'Oswald', sans-serif;
   font-size: 32px;
