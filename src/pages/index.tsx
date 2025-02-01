@@ -46,12 +46,6 @@ const IndexPage = () => (
 
                 <span>|</span>
 
-                <a href="https://www.buymeacoffee.com/uglyunicorn">
-                  Buy me a coffee
-                </a>
-
-                <span>|</span>
-
                 <span>
                   {"Photo by "}
                   <a href={"https://unsplash.com/@glencarrie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"}>Glen Carrie</a>
